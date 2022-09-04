@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a { 
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    border: 1px solid;
+}
+header h1{
+    border: 1px solid;
+   
+}
+header ul{
+    border: 1px solid;
+    float: right;
+}
+
+/* hero section  */
+body {
+    background-image: url('../img/Nature.jpg');
+    border: 2px solid;
+    height: 600px;
+    width: 100%;
+  }
+  div.hero {
+    margin: 30px;
+    opacity: 1;
+    text-align: center;
+    height: 500px;
+  }
+  
+  div.hero h1 {
+    margin: 200px;
+    font-weight: lighter;
+    color: #000000;
+  
+  }
+  div.hero h2{    
+      font-weight: lighter;
+      margin: -160px;
+  }
+  div.nav{
+      text-align: right;
+  }
+  div.nav h1{
+         text-align: left;
+  
+  }
