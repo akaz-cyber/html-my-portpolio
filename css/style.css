@@ -4,50 +4,66 @@
     font-family: sans-serif;
 }
 a { 
-    color: inherit;
     text-decoration: none;
+    color: black;
 }
 
-header{
-    border: 1px solid;
-}
-header h1{
-    border: 1px solid;
-   
-}
-header ul{
-    border: 1px solid;
-    float: right;
+
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;  
+    
 }
 
+ul{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    list-style-type:none ;
+
+}
 /* hero section  */
-body {
+/* body {
     background-image: url('../img/Nature.jpg');
     border: 2px solid;
     height: 600px;
     width: 100%;
-  }
+  } */
   div.hero {
-    margin: 30px;
     opacity: 1;
     text-align: center;
+    padding: 80px 20px; 
+    text-align : center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 500px;
+    background: url(../img/Nature.jpg);
+    
   }
   
   div.hero h1 {
-    margin: 200px;
     font-weight: lighter;
     color: #000000;
-  
+    margin-bottom: 20px;
   }
+  
   div.hero h2{    
-      font-weight: lighter;
-      margin: -160px;
+      font-weight: lighter; 
+
   }
   div.nav{
       text-align: right;
   }
   div.nav h1{
-         text-align: left;
+         text-align: left;  
   
   }
+
+
+  
+
