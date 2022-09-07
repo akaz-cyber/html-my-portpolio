@@ -5,21 +5,23 @@
 }
 a { 
     text-decoration: none;
-    color: white;
+    color: #EAECEE ;
 }
 
 body{
-    background-image: url("../img/dark.png");
+    height: 2000px;
 }
-
 header{ 
     display: flex;
+    width: 100%;
     justify-content: space-between;
     background-color: black ;
     align-items: center;  
     border: 2px solid;
-
     
+}
+header ul li:hover{
+    border-bottom: 3px solid white;
 }
 header h1{
     color: white;
@@ -32,13 +34,6 @@ ul{
     list-style-type:none ;
 
 }
-/* hero section  */
-/* body {
-    background-image: url('../img/Nature.jpg');
-    border: 2px solid;
-    height: 600px;
-    width: 100%;
-  } */
   div.hero {
     opacity: 1;
     text-align: center;
@@ -47,20 +42,28 @@ ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 500px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/dark.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    margin-top: -30px;
     
     
   }
   
   div.hero h1 {
     font-weight: lighter;
-    color: #FFFDEA;
+    color: #F5F7E5  ;
     margin-bottom: 20px;
+    font-size: 4em;
+
   }
   
   div.hero h2{    
       font-weight: lighter; 
-      color: #FFFDEA;
+      color: #F5F7E5    ;
 
   }
   div.nav{
@@ -70,6 +73,21 @@ ul{
          text-align: left;  
   
   }
+
+
+  .about {
+    width: 80%;
+    background-color: aqua;
+    margin: 40px auto;
+    padding: 40px;
+    
+
+  }
+  .more h1{
+     text-align: right;
+      
+  }
+
 
 
   
