@@ -11,10 +11,12 @@ a {
     text-decoration: none;
     color: #EAECEE ;
 }
-
 body{
+  height: 2000;
 
+  
 }
+
 header{ 
     display: flex;
     width: 100%;
@@ -100,12 +102,28 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px auto;
+    margin: 0px auto;
     
   }
   .me{
     padding: 60px 100px;
   }
+
+  /* about page2  */
+  .art{
+    padding: 60px 100px;
+  }
+
+  .art article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+  
+  
+  
+  /* end about page2  */
   article h1{
     font-size: 50px;
     font-weight: 800;
