@@ -178,37 +178,36 @@ nav .nav-list li a:hover{
   } 
 
   .art img{
-    height: 70vh;
+    height:  69%;
     padding: 40px;
+    margin-top: 50px;
+    
   }
 
   .row{
-    justify-content: center;
-     text-align: center;
-     padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
   }
-  /* .row span{
-    margin: 10px;
-  }
-  .row li{
-    margin-top: 15px;
-    text-align: left;
-  } */
+
   .row1{
     margin: 10px ;
   }  
   .row1 li{
-    margin-top: 15px;
+   padding: 20px;
     text-align: left;
+    margin-top: -10px;
   }
 
-  .row2{
-    margin: 10px ;
-  }  
-  .row2  li{
-    margin-top: 15px;
-    text-align: right ;
+  .row2 {
+     margin-left: 30vh;       
   }
+  .row2 li{
+    padding: 9px;
+    margin-top: 10px;
+  }
+
+
   /* end about page2  */
   article h1{
     font-size: 50px;
